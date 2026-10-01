@@ -89,7 +89,8 @@ async def handle_client(websocket):
 
 async def main():
     async with websockets.serve(handle_client, "localhost", 8765):
-        print("KBC Multiplayer Server started on ws://localhost:8765")
+        print("KBC Multiplayer Server started on ws = new WebSocket("wss://kbc-backend-username.snapdeploy.run");
+
         await asyncio.Future()  # Keep running
 
 if __name__ == "__main__":
